@@ -1,0 +1,47 @@
+{
+  "category": "MvnoMobileService",
+  "startDate": "",
+  "endDate": "",
+  "feature": [
+    {
+      "id": "1",
+      "isBundle": false,
+      "name": "DefaultFeatures",
+      "featureCharacteristic": [
+        {
+          "name": "profileID",
+          "valueType": "string",
+          "value": "novaDefProfile01"
+        },
+		{
+          "name": "CoS",
+          "valueType": "string",
+          "value": "vmCoS"
+        }
+      ]
+    }
+  ],
+  "relatedParty": [
+    {
+      "id": "nova01",
+      "name": "Nova",
+      "role": "MVNO"
+    }
+  ],
+  "serviceCharacteristic": [
+    {
+      "name": "MSISDN",
+      "valueType": "string",
+      "value": "0228936357"
+    },
+	{
+      "name": "IMSI",
+      "valueType": "string",
+      "value": "530242100136357"
+    }
+  ],
+  "serviceOrderItem": {
+    "serviceOrderId": "{{random(1000000000, 9999999999)}}",
+    "itemAction": "addSubscriber"
+  }
+}
