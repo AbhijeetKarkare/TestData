@@ -1,26 +1,4 @@
 {
-  "category": "MvnoMobileService",
-  "startDate": "",
-  "endDate": "",
-  "feature": [
-    {
-      "id": "1",
-      "isBundle": false,
-      "name": "DefaultFeatures",
-      "featureCharacteristic": [
-        {
-          "name": "profileID",
-          "valueType": "string",
-          "value": "novaDefProfile01"
-        },
-		{
-          "name": "CoS",
-          "valueType": "string",
-          "value": "vmCoS"
-        }
-      ]
-    }
-  ],
   "relatedParty": [
     {
       "id": "nova01",
